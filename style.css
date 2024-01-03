@@ -103,3 +103,30 @@ table {
         main {
             flex: 1;
         }
+        @media screen and (max-width: 768px) {
+            header {
+                padding: 10px;
+            }
+        
+            nav {
+                flex-direction: column;
+                align-items: center;
+                margin-top: 10px;
+            }
+        
+            nav ul {
+                margin-top: 10px;
+            }
+        
+            nav ul li {
+                margin-bottom: 10px;
+            }
+        
+            section img {
+                margin: 10px auto;
+            }
+        
+            footer {
+                padding: 10px;
+            }
+        }
